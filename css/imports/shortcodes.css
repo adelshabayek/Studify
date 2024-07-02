@@ -1,0 +1,28 @@
+/*-----------------------------------------------------------------------------------
+	shortcodes
+-----------------------------------------------------------------------------------*/
+
+
+@use url("shortcodes/countdown.css");
+@use url("shortcodes/buttons.css");
+@use url("shortcodes/promo.css");
+@use url("shortcodes/feature-box.css");
+@use url("shortcodes/process-steps.css");
+@use url("shortcodes/alerts.css");
+@use url("shortcodes/styled-icons.css");
+@use url("shortcodes/social-icons.css");
+@use url("shortcodes/toggles-accordions.css");
+@use url("shortcodes/tabs.css");
+@use url("shortcodes/faqs.css");
+@use url("shortcodes/clients.css");
+@use url("shortcodes/testimonials.css");
+@use url("shortcodes/team.css");
+@use url("shortcodes/pricing.css");
+@use url("shortcodes/counter-skills.css");
+@use url("shortcodes/carousel.css");
+@use url("shortcodes/flipcard.css");
+@use url("shortcodes/headings.css");
+@use url("shortcodes/dividers.css");
+@use url("shortcodes/toast.css");
+@use url("shortcodes/misc.css");
+

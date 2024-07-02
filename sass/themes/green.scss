@@ -1,0 +1,26 @@
+@charset 'UTF-8';
+@import"../variables";
+//-------------------- Base Colors --------------------//
+//#1ABC9C;
+$theme-color:                   		$green;
+$bg-theme-color:                   		$green-light;
+$border-color:                   		$green;
+$body-text-color:               		$gray;
+
+$body-bg:								$white; // White
+$body-bg-dark:							$gray-dark; // Dark -  .dark classes
+$body-bg-darker:						darken($body-bg-dark, 6.27%);
+
+$text-color:							$gray; // #444
+$text-color-dark:						$white; // #EEE
+$heading-color:                 		$green;
+$menu-color:                            $gray;
+
+$section-bg:							darken($body-bg, 2.35%); // #f9f9f9
+$section-bg-dark:						$body-bg-darker;
+
+
+@import "../../style.scss";
+
+
+    
