@@ -337,3 +337,15 @@
     position: relative;
     z-index: 44;
 }
+
+
+@media (max-width: 767.98px) {
+    #page-title {
+        text-align: center !important;
+    }
+}
+@media (max-width: 767.98px) {
+    #page-title .breadcrumb {
+        justify-content: center !important;
+    }
+}
