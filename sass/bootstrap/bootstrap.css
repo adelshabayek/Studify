@@ -447,13 +447,13 @@ h6, .h6 {
 }
 
 .display-4 {
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-weight: 300;
   line-height: 1.2;
 }
 @media (max-width: 1200px) {
   .display-4 {
-    font-size: calc(1.475rem + 2.7vw);
+    font-size: calc(1.425rem + 2.1vw);
   }
 }
 

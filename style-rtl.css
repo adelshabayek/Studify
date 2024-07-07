@@ -1575,7 +1575,7 @@ div.alignright {
 	Featured Boxes
 -----------------------------------------------------------------*/
 .feature-box {
-	padding: 0 80px 0 0px;
+	/* padding: 0 80px 0 0px; */
 }
 
 .feature-box .fbox-icon {
@@ -2949,3 +2949,4 @@ label.checkbox {
 	right: 0;
 	left: auto;
 }
+
