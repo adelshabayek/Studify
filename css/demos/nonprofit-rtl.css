@@ -87,6 +87,8 @@
 	z-index: 99;
 }
 
+
+
 .slider-arrow-left,
 .slider-arrow-right {
 	border-radius: 50%;
@@ -770,13 +772,16 @@ body:not(.floating-contact-processing) .floating-contact-loader { display: none;
 @media (max-width: 767.98px) {
 	.swiper-container-horizontal > .swiper-scrollbar {
 		bottom: 140px;
-		right: 30px;
+		right: 209px;
 		width: 140px;
 	}
 
 	.swiper-navs {
 		bottom: 100px;
-		right: 168px;
+		right: 300px;
+	}
+	.slide-number {
+		left: -18px !important;
 	}
 
 	.floating-contact-wrap .floating-contact-box { width: 330px; }
