@@ -42,7 +42,8 @@
 
 </head>
 
-<body class="stretched ltr search-overlay">
+<body class="stretched ltr page-transition"
+    data-loader-html="<div id='css3-spinner-svg-pulse-wrapper'><svg id='css3-spinner-svg-pulse' version='1.2' height='210' width='550' xmlns='https://www.w3.org/2000/svg' viewport='0 0 60 60' xmlns:xlink='https://www.w3.org/1999/xlink'><path id='css3-spinner-pulse' stroke='#DE6262' fill='none' stroke-width='2' stroke-linejoin='round' d='M0,90L250,90Q257,60 262,87T267,95 270,88 273,92t6,35 7,-60T290,127 297,107s2,-11 10,-10 1,1 8,-10T319,95c6,4 8,-6 10,-17s2,10 9,11h210' /></svg></div>">
 
     <!-- Document Wrapper
 	============================================= -->
@@ -67,11 +68,11 @@
                                     <ul class="top-links-sub-menu">
                                         <li class="top-links-item"> <a href="#" class="dropdown-item disabled"
                                                 tabindex="-1" aria-disabled="true">
-                                                <img src="imges/flags/eng.png" alt="Lang">
+                                                <img loading="lazy" src="imges/flags/eng.png" alt="Lang">
 
                                                 English</a></li>
                                         <li class="top-links-item"> <a href="index-rtl.html" class="dropdown-item"><img
-                                                    src="imges/flags/ar.png" alt="Lang"> Arabic</a></li>
+                                                    loading="lazy" src="imges/flags/ar.png" alt="Lang"> Arabic</a></li>
 
                                     </ul>
                                 </li>
@@ -88,8 +89,11 @@
 						============================================= -->
                         <div class="top-links">
                             <ul class="top-links-container">
-                                <li class="top-links-item"><a href="#" class="">Free Courses</a></li>
-
+                                <li class="top-links-item"><a href="#" class="">
+                                        <div>
+                                            <span class="animate-charcter">V1.2</span>
+                                        </div>
+                                    </a></li>
                             </ul>
                         </div><!-- .top-links end -->
 
@@ -138,7 +142,7 @@
                                     <div class="row">
 
                                         <div class="col-6 text-left">
-                                            <a class="navbar-brand " href="#"><img class="logo"
+                                            <a class="navbar-brand " href="#"><img loading="lazy" class="logo"
                                                     style="max-width: 250% !important;" src="imges/logo.png" width=""
                                                     alt="logo">
                                             </a>
@@ -295,49 +299,54 @@
 
     <!-- start content and lessons  -->
 
-    <section id="content ">
-        <div class="content-wrap">
+    <section id="content  ">
+        <div class="content-wrap ">
             <!-- Features
 				============================================= -->
-            <div class="section bg-transparent mt-4 mb-0 pb-0">
+            <div class="section bg-transparent mt-4 mb-0  pb-0">
                 <div class="container">
                     <div class="heading-block border-bottom-0 center mx-auto mb-0" style="max-width: 550px">
-                       
-                        <h3 class="nott ls0 mb-3">What We Do</h3>
-                        <p>At Studify, we enable Al-Arish students to easily book online lessons. Try our platform now and see how we will change your educational experience for the better.</p>
+
+                        <h3 class="nott ls0 mb-3" data-animate="fadeInUp">What We Do</h3>
+                        <p data-animate="fadeInUp">At Studify, we enable Al-Arish students to easily book online
+                            lessons. Try our platform now
+                            and see how we will change your educational experience for the better.</p>
                     </div>
                     <div class="row justify-content-between align-items-center">
 
                         <div class="col-lg-4 col-sm-6">
 
-                            <div class="feature-box flex-md-row-reverse text-md-right border-0">
+                            <div class="feature-box flex-md-row-reverse text-md-right border-0" data-animate="fadeInUp">
                                 <div class="fbox-icon">
-                                    <a href="#"><img src="imges/1.svg" alt="Feature Icon"
-                                        class="bg-transparent rounded-0"></a>
+                                    <img loading="lazy" src="imges/1.svg" alt="Feature Icon"
+                                        class="bg-transparent rounded-0 lazy lazy-loaded">
                                 </div>
                                 <div class="fbox-content">
-                                    <h3 class="nott ls0">SEO optimization</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, dolore,
-                                        voluptates!</p>
+                                    <h3 class="nott ls0">Revolutionizing Education</h3>
+                                    <p>As the educational landscape in Arish continues to evolve, the need for
+                                        accessible and efficient learning platforms has become increasingly apparent.
+                                    </p>
                                 </div>
                             </div>
 
-                            <div class="feature-box flex-md-row-reverse text-md-right border-0 mt-5">
+                            <div class="feature-box flex-md-row-reverse text-md-right border-0 mt-5"
+                                data-animate="fadeInUp">
                                 <div class="fbox-icon">
-                                    <a href="#"><img src="imges/2.svg" alt="Feature Icon"
-                                            class="bg-transparent rounded-0"></a>
+                                    <img loading="lazy" src="imges/2.svg" alt="Feature Icon"
+                                        class="bg-transparent rounded-0">
                                 </div>
                                 <div class="fbox-content">
-                                    <h3 class="nott ls0">Adwords Campaign</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, provident.</p>
+                                    <h3 class="nott ls0">Designed with the modern student in mind</h3>
+                                    <p>Studify offers a seamless and convenient booking experience. With just a few taps
+                                        on your mobile device, you can browse a comprehensive catalog of qualified
+                                        instructors, compare their profiles and pricing, and secure your desired lesson
+                                        time .</p>
                                 </div>
                             </div>
-
-                            
 
                         </div>
 
-                        <div class="col-lg-3 col-7 offset-3 offset-sm-0  center my-5">
+                        <div class="col-lg-3 col-7 offset-3 offset-sm-0  center my-5" data-animate="fadeInUp">
                             <img src="imges/great.svg" alt="iphone" class="rounded  parallax"
                                 data-bottom-top="transform: translateY(-30px)"
                                 data-top-bottom="transform: translateY(30px)">
@@ -345,36 +354,200 @@
 
                         <div class="col-lg-4 col-sm-6">
 
-                            <div class="feature-box border-0">
+                            <div class="feature-box border-0" data-animate="fadeInUp">
                                 <div class="fbox-icon">
-                                    <a href="#"><img src="imges/3.svg" alt="Feature Icon"
-                                            class="bg-transparent rounded-0"></a>
+                                    <img loading="lazy" src="imges/3.svg" alt="Feature Icon"
+                                        class="bg-transparent rounded-0">
                                 </div>
                                 <div class="fbox-content">
-                                    <h3 class="nott ls0">Social Media Marketing</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, dolore,
-                                        voluptates!</p>
+                                    <h3 class="nott ls0">Enter Studify</h3>
+                                    <p>The game-changing educational platform that is transforming the way students in
+                                        Arish access and book lessons.</p>
                                 </div>
                             </div>
 
-                            <div class="feature-box border-0 mt-5">
+                            <div class="feature-box border-0 mt-5" data-animate="fadeInUp">
                                 <div class="fbox-icon">
-                                    <a href="#"><img src="imges/4.svg" alt="Feature Icon"
-                                            class="bg-transparent rounded-0"></a>
+                                    <img loading="lazy" src="imges/4.svg" alt="Feature Icon"
+                                        class="bg-transparent rounded-0">
                                 </div>
                                 <div class="fbox-content">
-                                    <h3 class="nott ls0">Customer Experience</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, ipsa!</p>
+                                    <h3 class="nott ls0">Gateway to a world of educational possibilities</h3>
+                                    <p>Studify's intuitive interface puts the power in your hands, allowing you to take
+                                        control of your educational journey. </p>
                                 </div>
                             </div>
-
-                           
 
                         </div>
-
                     </div>
                 </div>
             </div>
+            <!-- end what we do  -->
+
+            <div class="section lazy my-6 p-0 min-vh-75 d-flex dark counter-ground" data-bg="/imges/backgroudsss-1.jpg">
+
+                <div class="overlay-img">
+                </div>
+
+                <div class="container center clearfix text-ground py-6">
+
+                    <div class="heading-block">
+                        <h2>statistics</h2>
+                        <span>Important statistics on system.</span>
+                    </div>
+
+                    <div class="row justify-content-center col-mb-30">
+                        <div class="col-sm-6 col-md-6 col-lg-3" data-animate="bounceIn">
+                            <div class="card-stat">
+
+                                <div class="counter counter-large"><span data-from="100" data-to="345"
+                                        data-refresh-interval="20" data-speed="2000"></span></div>
+                                <h5>Teachers</h5>
+
+                            </div>
+
+                        </div>
+
+                        <div class="col-sm-6 col-md-6 col-lg-3" data-animate="bounceIn" data-delay="200">
+                            <div class="card-stat">
+
+
+                                <div class="counter counter-large"><span data-from="10" data-to="116"
+                                        data-refresh-interval="10" data-speed="2000"></span></div>
+                                <h5>Students</h5>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-md-6 col-lg-3" data-animate="bounceIn" data-delay="400">
+                            <div class="card-stat">
+                                <div class="counter counter-large"><span data-from="2" data-to="178"
+                                        data-refresh-interval="13" data-speed="3000"></span></div>
+                                <h5>Assistants</h5>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-md-6 col-lg-3" data-animate="bounceIn" data-delay="600">
+                            <div class="card-stat">
+                                <div class="counter counter-large"><span data-from="50" data-to="1523"
+                                        data-refresh-interval="25" data-speed="2500"></span></div>
+                                <h5>Tests</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- end stat  -->
+            <div class="clearfix"></div>
+            <!-- start staff  -->
+
+            <div class="my-6 " >
+                <div class="container ">
+
+                    <div class="heading-block text-center " data-animate="fadeInUp">
+                        <h3>Teaching staff</h3>
+
+                    </div>
+
+                    <div id="oc-team" class="owl-carousel team-carousel carousel-widget " data-autoplay="2000" data-animate="fadeInUp"
+                        data-loop="true" data-speed="1000" data-margin="30" data-nav="true" data-pagi="true"
+                        data-items-xs="1" data-items-sm="2" data-items-lg="3" data-items-xl="4">
+
+                        <div class="team">
+                            <div class="team-image ">
+                                <img src="imges/T3.jpg" alt="Dr. John Doe">
+                            </div>
+                            <div class="team-desc">
+                                <div class="team-title">
+                                    <h4>Dr. John Doe</h4><span>Cardiologist</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="team">
+                            <div class="team-image">
+                                <img src="imges/T2.jpg" alt="Dr. John Doe">
+                            </div>
+                            <div class="team-desc">
+                                <div class="team-title">
+                                    <h4>Dr. Bryan Mcguire</h4><span>Orthopedist</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="team">
+                            <div class="team-image">
+                                <img src="imges/T1.jpg" alt="Dr. John Doe">
+                            </div>
+                            <div class="team-desc">
+                                <div class="team-title">
+                                    <h4>Dr. Mary Jane</h4><span>Neurologist</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="team">
+                            <div class="team-image">
+                                <img src="imges/T2.jpg" alt="Dr. John Doe">
+                            </div>
+                            <div class="team-desc">
+                                <div class="team-title">
+                                    <h4>Dr. Silvia Bush</h4><span>Dentist</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="team">
+                            <div class="team-image">
+                                <img src="imges/T1.jpg" alt="Dr. John Doe">
+                            </div>
+                            <div class="team-desc">
+                                <div class="team-title">
+                                    <h4>Dr. Hugh Baldwin</h4><span>Cardiologist</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="team">
+                            <div class="team-image">
+                                <img src="imges/T3.jpg" alt="Dr. John Doe">
+                            </div>
+                            <div class="team-desc">
+                                <div class="team-title">
+                                    <h4>Dr. Erika Todd</h4><span>Neurologist</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="team">
+                            <div class="team-image">
+                                <img src="imges/T1.jpg" alt="Dr. John Doe">
+                            </div>
+                            <div class="team-desc">
+                                <div class="team-title">
+                                    <h4>Dr. Randy Adams</h4><span>Dentist</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="team">
+                            <div class="team-image">
+                                <img src="imges/T2.jpg" alt="Dr. John Doe">
+                            </div>
+                            <div class="team-desc">
+                                <div class="team-title">
+                                    <h4>Dr. Alan Freeman</h4><span>Eye Specialist</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center pt-5" data-animate="fadeInUp">
+                        <a href="#" class="btn btn-primary btn-lg">See More</a>
+                    </div>
+
+                </div>
+            </div>
+
         </div>
     </section>
     <!-- #content end -->
@@ -397,7 +570,7 @@
 
                     <div class="col-lg-3 col-md-12 col-sm-12 footer-logon">
                         <div class="  text-center text-lg-left order-last order-lg-first">
-                            <img src="imges/logo.png" alt="Image">
+                            <img loading="lazy" src="imges/logo.png" alt="Image">
 
                         </div>
                     </div>
@@ -474,15 +647,10 @@
                             <i class="icon-twitter"></i>
                         </a>
                     </div>
-
                 </div>
-
             </div>
-
         </div>
-
         </div>
-
         </div>
         <!-- .footer-widgets-wrap end -->
 
