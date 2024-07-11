@@ -2215,37 +2215,37 @@ blockquote.float-right {
 /* Owl Carousel - Controls - Arrows
 -----------------------------------------------------------------*/
 .owl-carousel .owl-nav [class*="owl-"] {
-	right: -36px;
-	left: auto;
+	left: -36px;
+	right: auto;
 }
 
 .slider-element .owl-nav [class*="owl-"],
 .owl-carousel-full .owl-nav [class*="owl-"] {
-	right: 0 !important;
-	left: auto !important;
+	left: 0 !important;
+	right: auto !important;
 	border-radius: 0 0 3px 3px;
 }
 
 .owl-carousel .owl-nav .owl-next {
-	right: auto;
-	left: -36px;
+	left: auto;
+	right: -36px;
 }
 
 .slider-element .owl-nav .owl-next,
 .owl-carousel-full .owl-nav .owl-next {
-	right: auto !important;
-	left: 0 !important;
+	left: auto !important;
+	right: 0 !important;
 	border-radius: 3px 3px 0 0px;
 }
 
 .owl-carousel:hover .owl-nav [class*="owl-"] {
-	right: -18px;
-	left: auto;
+	left: -18px;
+	right: auto;
 }
 
 .owl-carousel:hover .owl-nav .owl-next {
-	right: auto;
-	left: -18px;
+	left: auto;
+	right: -18px;
 }
 
 /* ----------------------------------------------------------------

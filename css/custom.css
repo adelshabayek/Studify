@@ -164,7 +164,7 @@ html  {
 }
 @media (min-width: 1200px) {
     .c-rt-nav {
-       padding-left: 50px !important;  
+       padding-left: 20px !important;  
     }
 }
 
@@ -188,9 +188,10 @@ html  {
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 500px) {
     .f-size {
-        font-size: 20px !important:
+        font-size: 60px !important;
+        margin-top: -100px;
     }
 }
 
@@ -282,31 +283,42 @@ html  {
     font-size: 35px !important;
 } */
 .f40 {
-    font-family: Alexandria,sans-serif !important;
+    font-family: "Cairo", sans-serif !important;
     font-size:40px  !important;
 }
 
 .f30 {
-    font-family: Alexandria,sans-serif !important;
+    font-family: "Cairo", sans-serif !important;
     font-size:30px  !important;
 }
 
 .f26 {
-    font-family: Alexandria,sans-serif !important;
+    font-family: "Cairo", sans-serif !important;
     font-size: 26px !important;
+}
+.f24 {
+    font-family: "Cairo", sans-serif !important;
+    font-size: 24px !important;
+}
+.f20 {
+    font-family: "Cairo", sans-serif !important;
+    font-size: 20px !important;
 }
 
 .f19 {
-    font-family: Alexandria, sans-serif !important;
+    font-family: "Cairo", sans-serif !important;
     font-size: 19px !important;
 }
-/* .f18 {
+.f18 {
+    
+    font-family: "Cairo", sans-serif !important;
     font-size: 18px !important;
-} */
+}
 
 .f16 {
-    font-family: Alexandria,sans-serif !important;
-    font-size: 16px  !important;
+    font-family: "Cairo", sans-serif !important;
+    font-size: 18px  !important;
+    font-weight: bold !important;
 }
 .f14 {
     font-size: 13px !important;
@@ -317,11 +329,9 @@ html  {
     line-height: 1.9;
 }
 
-/* .f15 {
-    font-size: 15px !important;
-} */
+
 .lh {
-    font-family: Alexandria, sans-serif !important;
+    font-family: "Cairo", sans-serif !important;
     font-size: 20px;
     letter-spacing : 0 !important;   
     line-height: 1.5;
@@ -367,7 +377,10 @@ html  {
 }
 .hfamily {
     font-family: "Cairo", sans-serif !important;
-    font-weight: bold;
+    font-weight: bold !important;
+}
+.pfamily {
+    font-family: "Cairo", sans-serif !important;
 }
 
 @keyframes textclip {
