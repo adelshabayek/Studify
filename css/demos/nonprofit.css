@@ -762,7 +762,7 @@ body:not(.floating-contact-processing) .floating-contact-loader { display: none;
 
 	.full-width-img { margin-left: calc(50% - 300px); }
 
-	#page-title.page-title-center .breadcrumb { margin-top: 35px !important; }
+	/* #page-title.page-title-center .breadcrumb { margin-top: 35px !important; } */
 
 }
 

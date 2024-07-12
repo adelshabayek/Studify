@@ -314,6 +314,9 @@ html  {
     font-family: "Cairo", sans-serif !important;
     font-size: 18px !important;
 }
+.f17 {
+    font-size: 16px !important;
+}
 
 .f16 {
     font-family: "Cairo", sans-serif !important;
@@ -434,4 +437,12 @@ html  {
     border: 1px solid rgba(255, 255, 255, 0.2);
     background-color: rgba(255, 255, 255, 0.15);
     padding: 20px 20px 15px 20px;
+}
+.rounded-15 {
+    border-radius: 15px;
+}
+
+.span-footer {
+    color: #007bffb3;
+    font-style: italic;
 }

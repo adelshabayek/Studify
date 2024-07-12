@@ -26,6 +26,8 @@
 
 
 	<!-- Blog Demo Specific Stylesheet -->
+    <link rel="stylesheet" href="../css/demos/seo.css">
+
      <link rel="stylesheet" href="../css/demos/pet.css">
 	<link rel="stylesheet" href="../css/demos/blog.css" type="text/css" />
 	<link rel="stylesheet" href="../css/colors.php?color=007bff" type="text/css" />
@@ -248,10 +250,11 @@
 
     <!-- Page Title
 		============================================= -->
-        <section id="page-title" class="page-title-parallax page-title-dark page-title-lg"
-        style="background-image: url('../../../imges/bg-text.jpeg'); background-size: cover; "
-        data-bottom-top="background-position:0px 0px;" data-top-bottom="background-position:0px -300px;">
-
+        <section id="page-title" class="page-title-parallax page-title-dark "
+        style="background-image: linear-gradient(to top, rgba(18,66,113), rgba(18,66,113,0.3)), url('../imges/bg-text.jpg'); background-size: cover; padding: 100px 0; " 
+        
+        data-bottom-top="background-position:0px 100px;" data-top-bottom="background-position:0px -200px;">
+        <div id="particles-line"></div>
         <div class="container clearfix">
             <h1>Modules</h1>
             <span class="font-weight-400">Teaching staff</span>
@@ -656,6 +659,13 @@
 ============================================= -->
     <script src="../js/functions.js"></script>
     <script src="../js/plugins.min.js"></script>
+
+    <!-- Main Particles Js
+	============================================= -->
+	<script src="../js/particles.min.js"></script>
+	<script src="../js/particles-line.js"></script><!-- Particles Line -->
+
+
     <script src="../js/events.js"></script>
 
     <script>
