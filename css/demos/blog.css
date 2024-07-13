@@ -341,7 +341,7 @@ a.more-link i {
 	padding-left: 7px;
 }
 
-.widget>h4 {
+.widget>div>h4 {
 	display: inline-block;
 	background-image: linear-gradient(rgba(var(--themecolorrgba, 243, 152, 135), 0.3), rgba(var(--themecolorrgba, 243, 152, 135), 0.3));
 	background-repeat: no-repeat;

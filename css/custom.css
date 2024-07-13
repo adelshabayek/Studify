@@ -446,3 +446,7 @@ html  {
     color: #007bffb3;
     font-style: italic;
 }
+
+.borderd {
+    border: 1px solid #e5e5e5;
+}
