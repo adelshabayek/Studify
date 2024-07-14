@@ -2950,3 +2950,20 @@ label.checkbox {
 	left: auto;
 }
 
+@media (max-width: 991px) {
+    .widget-width {
+     padding-top: 470px !important;
+       
+    }
+}
+
+
+@media (max-width: 510px) {
+    .widget-width {
+        padding-top: 400px !important;
+       
+    }
+}
+
+
+

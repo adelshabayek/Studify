@@ -331,6 +331,9 @@ html  {
 .line-h {
     line-height: 1.9;
 }
+.line-p {
+    line-height: 1.9;
+}
 
 
 .lh {
@@ -450,3 +453,58 @@ html  {
 .borderd {
     border: 1px solid #e5e5e5;
 }
+
+.test {
+
+    overflow: hidden;
+    height: 761px;
+}
+
+@media (max-width: 991px) {
+    .test {
+      height: 678px;
+       
+    }
+}
+
+
+@media (max-width: 510px) {
+    .test {
+      height: 967px;
+       
+    }
+}
+
+/* 
+@media (max-width: 991px) {
+    .widget-width {
+     padding-top: 200px !important;
+       
+    }
+}
+
+
+@media (max-width: 510px) {
+    .widget-width {
+        padding-top: 400px !important;
+       
+    }
+}
+
+@media (max-width: 991px) {
+    .widget-width-rtl {
+     padding-top: 200px !important;
+       
+    }
+}
+
+
+@media (max-width: 510px) {
+    .widget-width-rtl {
+        padding-top: 522px !important;
+       
+    }
+}
+
+ */
+
