@@ -190,7 +190,7 @@ html  {
 
 @media (max-width: 500px) {
     .f-size {
-        font-size: 60px !important;
+        font-size: 35px !important;
         margin-top: -100px;
     }
 }
@@ -284,6 +284,9 @@ html  {
 } */
 .f40 {
     font-family: "Cairo", sans-serif !important;
+    font-size:40px  !important;
+}
+.f40-en {
     font-size:40px  !important;
 }
 
@@ -525,3 +528,30 @@ html  {
 .pricing-title {
     letter-spacing: 0;
 }
+
+
+
+@media (max-width: 680px) {
+    .slider-h {
+       
+       font-size: 40px !important;
+    }
+}
+
+@media (max-width: 400px) {
+    .slider-h {
+        padding-bottom: 130px;
+       font-size: 50px !important;
+    }
+}
+
+@media (max-width: 400px) {
+    .f40-en {
+       
+       font-size:37px !important;
+    }
+}
+.logo-width {
+    max-width: 250% !important;
+}
+

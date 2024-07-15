@@ -15584,7 +15584,7 @@ body:not(.has-plugin-html5video) .video-wrap video {
   text-shadow: none;
 }
 .slider-caption h2 {
-  font-size: 4rem;
+  font-size: 3.5rem;
   text-transform: uppercase;
   font-weight: 700;
   margin-bottom: 0;
@@ -22857,7 +22857,7 @@ h3.titular-title {
   margin-bottom: 0;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 0;
   color: #3e8933;
 }
 .heading-block h1 {

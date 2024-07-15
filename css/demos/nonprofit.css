@@ -81,7 +81,7 @@
 .swiper-navs {
 	position: absolute;
 	left: auto;
-	right: 300px;
+	right: 245px;
 	bottom: 140px;
 	top: auto;
 	z-index: 99;
@@ -776,7 +776,7 @@ body:not(.floating-contact-processing) .floating-contact-loader { display: none;
 
 	.swiper-navs {
 		bottom: 100px;
-		right: 168px;
+		right: 139px;
 	}
 
 	.floating-contact-wrap .floating-contact-box { width: 330px; }

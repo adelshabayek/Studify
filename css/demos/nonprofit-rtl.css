@@ -772,16 +772,16 @@ body:not(.floating-contact-processing) .floating-contact-loader { display: none;
 @media (max-width: 767.98px) {
 	.swiper-container-horizontal > .swiper-scrollbar {
 		bottom: 140px;
-		right: 209px;
+		left : 145px;
 		width: 140px;
 	}
 
 	.swiper-navs {
 		bottom: 100px;
-		right: 300px;
+		/* right: 300px; */
 	}
 	.slide-number {
-		left: -18px !important;
+		/* left: -18px !important; */
 	}
 
 	.floating-contact-wrap .floating-contact-box { width: 330px; }
