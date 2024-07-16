@@ -302,7 +302,13 @@ html  {
 .f24 {
     font-family: "Cairo", sans-serif !important;
     font-size: 24px !important;
+
 }
+.f22 {
+    font-family: "Cairo", sans-serif !important;
+    font-size: 22px !important;
+}
+
 .f20 {
     font-family: "Cairo", sans-serif !important;
     font-size: 20px !important;
@@ -551,3 +557,14 @@ html  {
        font-size:37px !important;
     }
 }
+ .quote-p {
+    font-weight: bold;
+    color: #555 !important;
+ }
+
+ .quote-p-rtl {
+    font-size: 24px;
+    font-family: "Cairo", sans-serif !important;
+    font-weight: bold;
+    color: #555 !important;
+ }
