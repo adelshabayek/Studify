@@ -795,17 +795,17 @@ body:not(.floating-contact-processing) .floating-contact-loader { display: none;
 		/* right: 300px !important; */
 	}
 	
-	/* @media (max-width: 450px) {
+	@media (max-width: 450px) {
 		.swiper-navs {
-			/* bottom: 100px; */
-			/* right: 250px !important; */
+			bottom: 100px;
+			right: 300px !important;
 		}
-		.swiper-scrollbar {
-			/* bottom: 140px;
-			left: 65px !important;
-			width: 140px; */
-		}
-	} */
+		/* .swiper-scrollbar {
+			bottom: 140px;
+			left: 43px !important;
+			width: 140px;
+		} */
+	}
 
 		/* left: -18px !important; */
 
