@@ -77,6 +77,20 @@
 	line-height: 28px;
 	left: 29px;
 }
+/* 
+@media (max-width: 500px) {
+    .swiper-navs {
+		right: 355 !important;
+
+	}
+}
+
+@media (max-width: 300px) {
+    .swiper-navs {
+		right: 100px !important;
+
+	}
+} */
 
 .swiper-navs {
 	position: absolute;

@@ -2965,5 +2965,9 @@ label.checkbox {
     }
 }
 
+.menu-link {
+	letter-spacing: 0 !important;
+}
+
 
 
