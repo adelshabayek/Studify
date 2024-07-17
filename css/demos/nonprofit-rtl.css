@@ -792,11 +792,22 @@ body:not(.floating-contact-processing) .floating-contact-loader { display: none;
 
 	.swiper-navs {
 		bottom: 100px;
-		/* right: 300px; */
+		/* right: 300px !important; */
 	}
-	.slide-number {
+	
+	@media (max-width: 450px) {
+		.swiper-navs {
+			bottom: 100px;
+			right: 300px !important;
+		}
+		.swiper-scrollbar {
+			bottom: 140px;
+			left: 65px !important;
+			width: 140px;
+		}
+	}
+
 		/* left: -18px !important; */
-	}
 
 	.floating-contact-wrap .floating-contact-box { width: 330px; }
 }
