@@ -575,3 +575,13 @@ html  {
  .icon-hover-call:hover {
     background-color: #444 !important;
  }
+
+ .link-footer {
+    display: contents !important;
+    color: #cccccc !important;
+    font-size: 15px !important;
+ }
+ .link-footer-en {
+    display: contents !important;
+    color: #cccccc !important;
+ }
